@@ -64,7 +64,7 @@ function App() {
           className=' w-full bg-blue-600 text-white px-4 py-3 rounded-lg'
           onSubmit={convert}
           >
-            Click to Conveter Currency
+            Convert {from} to {to}
           </button>
         </div>
       </form>
