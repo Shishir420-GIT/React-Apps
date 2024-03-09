@@ -2,7 +2,7 @@ import { useState, useCallback, useEffect, useRef} from 'react'
 import './App.css'
 
 function App() {
-  const [number, setNumber] = useState(8)
+  const [number, setNumber] = useState(0)
   const [numAllowed, setNumAllowed] = useState(false)
   const [charAllowed, setCharAllowed] = useState(false)
   const [password, setPassword] = useState('')
