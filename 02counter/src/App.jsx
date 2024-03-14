@@ -3,25 +3,6 @@ import './App.css'
 
 function App() {
   const [counter, setCounter] = useState(10)
-  //These are in batch won't work as react sees it a a single task
-  // const addValue = () => {
-  //   setCounter(counter + 1)
-  //     console.log(counter)
-  //   setCounter(counter + 1)
-  //     console.log(counter)
-  //   setCounter(counter + 1)
-  //     console.log(counter)
-  //   setCounter(counter + 1)
-  //     console.log(counter)
-  // }
-
-  // const addValue = () => {
-  //   for(let i=0; i<5; i++){
-  //     setCounter(counter + 1)
-  //     console.log(counter)
-  //   }
-  // }
-
   const addValue = () => {
     setCounter((preVal) => preVal +1 )
     setCounter((preVal) => preVal +1 )
